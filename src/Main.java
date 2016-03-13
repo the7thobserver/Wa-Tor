@@ -1,11 +1,10 @@
 
 public class Main 
 {
-
 	public static void main(String[] args)
 	{
-		GUI gui = new GUI();
-		gui.createGrid();
+		GameLogic gl = new GameLogic();
+		gl.init();
 	}
 
 }
